@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 1170px;
+  margin: 30px auto;
+}
+
+.header {
+  width: inherit;
+  display: inline-block;
+}
+
+.header-nav {
+  width: inherit;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.section-one {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+}
