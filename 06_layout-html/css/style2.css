@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 1170px;
+  margin: 30px auto;
+}
+
+.main-container * {
+  margin: 0;
+}
+
+.header {
+  display: block;
+  width: inherit;
+}
+
+.header-logo-container {
+  display: block;
+  width: inherit;
+}
+
+.header-nav {
+  display: block;
+  width: inherit;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.header-nav ul {
+  display: inline-block;
+}
+
+.header-nav li {
+  display: inline-block;
+  width: fit-content;
+}
+
+.header-nav a {
+  color: brown;
+}
+
+.header-nav button {
+  display: inline-block;
+}
+
+.section-one a {
+  color: chartreuse;
+}
+
+.section-one-article {
+  display: block;
+  width: max-content;
+}
+
+h3 {
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.section-two p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 200%;
+}
+
+.section-three p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 200%;
+}
+
+.section-three-item h2 {
+  display: inline-block;
+  color: green;
+}
+
+.section-three-item.one {
+  background-color: rgb(24, 218, 153);
+}
